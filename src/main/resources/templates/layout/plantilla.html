@@ -3,18 +3,19 @@
       xmlns:th = "http://www.thymeleaf.org">
     <head th:fragment="head">
         <title>TechShop</title>
-        <meta charset="UTF-8"/>
-        <a th:href="@{/webjars/bootstrap/css/bootstrap.min.css"></a>
-          <a th:href="@{/webjars/font-awesome/css/all.css"></a>
-         <source th:src="@{/webjars/jquery/jquery.min.js}"></source>
-         <source th:src="@{/webjars/popper.js/umd/popper.min.js}"></source>
-         <source th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></source>
+      
+        <link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet">
+        <link th:href="@{/webjars/font-awesome/css/all.css}" rel="stylesheet">
+        <source th:src ="@{/webjars/jquery/jquery.min.js}"></source>
+        <source th:src ="@{/webjars/popper.js/ums/popper.min.js}"></source>
+        <source th:src ="@{/webjars/bootstrap/js/bootstrap.min.js}"></source>
     </head>
+    
     <body>
-        
-        <footer th:fragment="footer">
-            <p>&COPY [[#{plantilla.derechos}]]</p>
+        <footer>
+            <p>&COPY TechShop Derechos Reservados 2023</p>
         </footer>
+ 
       
     </body>
 </html>
