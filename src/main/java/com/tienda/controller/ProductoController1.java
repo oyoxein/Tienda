@@ -27,7 +27,7 @@ public class ProductoController1 {
                 productos);
         model.addAttribute("totalProductos",
                 productos.size());
-        
+
         return "/producto/listado";
 
     }
